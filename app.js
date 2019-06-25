@@ -21,6 +21,7 @@ const users = require('./routes/users');
 const port = 3000;
 
 // Middlewares
+
 app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }))
