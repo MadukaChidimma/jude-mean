@@ -28,7 +28,6 @@ app.use(passport.initialize());
 app.use(passport.session());
 app.use('/users', users);
 
-
 require('./config/passport')(passport);
 
 // Set Static Folder

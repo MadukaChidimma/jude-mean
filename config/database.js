@@ -1,6 +1,4 @@
 module.exports = {
-    mongoURI: 'mongodb+srv://hephzibah:<password>@meanapp-dev-xysfr.mongodb.net/test?retryWrites=true&w=majority',
+    mongoURI: 'mongodb://localhost:27017/meanauth',
     secret: 'yoursecret'
 }
-
-    
